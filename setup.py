@@ -44,12 +44,12 @@ setup(
                         'dash>=2.0',
                         'dpd-components',
 
-                        'dash-bootstrap-components<1',
+                        'dash-bootstrap-components<=1.2.1',
 
                         'channels<3.0',
-                        'Django>=2.2,<4.0.0',
+                        'Django>=2.2,<=4.1',
                         'Flask>=1.0.2',
-                        'Werkzeug>=2.0,<2.1',
+                        'Werkzeug>=2.0,<2.2.2',
     ],
     python_requires=">=3.8",
     )
